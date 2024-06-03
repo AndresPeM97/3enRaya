@@ -28,7 +28,7 @@ const saberGanador = (newBoard) => {
                 console.log(posicion)
             }
 
-            if(posicion !== 0 && casilla === newBoard[index - posicion]){
+            if(posicion !== 0 && casilla === newBoard[index - posicion] && index !== 2 && index !== 5){
 
                 console.log(casilla)
                 encontrado = casilla
